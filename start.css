@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: space-between;
+}
+
+#orange{
+    order: 2;
+    flex-grow: 1;
+}
+
+#blue{
+    order: 3;
+}
+
+#green{
+    order: 1;
+}
