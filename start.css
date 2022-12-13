@@ -1,17 +1,22 @@
 body{
-    display: flex;
-    justify-content: space-between;
-}
-
-#orange{
-    order: 2;
-    flex-grow: 1;
-}
-
-#blue{
-    order: 3;
+    display: grid;
+    grid-template: 0.5fr 1fr 0.5fr / 1fr 1fr 1fr;
 }
 
 #green{
-    order: 1;
+    grid-column: span 3;
+}
+
+#red{
+    grid-column: 2 ;
+    grid-row: 2 ;
+}
+
+#blue{
+    grid-column: 3;
+    grid-row: 2 / 4;
+}
+
+#orange{
+    grid-column: span 2;
 }
